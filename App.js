@@ -647,7 +647,7 @@ else if (date == 23) {
 
        <View>
        <Text style={{ fontFamily: 'Raleway-Regular', paddingBottom: '7.5%', fontSize: 45, fontWeight: '400', textAlign: 'center',  color: "white"}}>
-         Weather2Wed
+         Weather2Walk
        </Text>
        </View>
      ) : null
@@ -806,7 +806,7 @@ else if (date == 23) {
 
      <View>
      <Text style={{ fontFamily: 'Raleway-Regular', paddingBottom: '7.5%', fontSize: 45, fontWeight: '400', textAlign: 'center',  color: "white"}}>
-       Weather2Wed
+       Weather2Walk
      </Text>
      </View>
    ) : null
@@ -893,7 +893,7 @@ else if (date == 23) {
 
        <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', paddingLeft: 20, paddingTop: 10, paddingRight: 20, paddingBottom: 10}}>Weather2Walk’s aim is to allow hikers and walking hobbyists to assess the weather for the area or range of hills they are planning to visit - at any UK location. Powered by <Text style={{fontSize: 17, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://darksky.net/')}>Dark Sky</Text>, the app returns the typical weather (based on historical averages) for any given outdoor location in the UK, as well as an approximate prediction of the moon phase powered by <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://github.com/mourner/suncalc')}>SunCalc</Text>. The app utilises <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://www.geograph.org.uk/')}>Geograph's API</Text> which means that any part of the UK can be entered as a search term (the fuzzy search can handle lakes, hills and mountains, trails and other geographical features). Weather2Walk also suggests hotels and restaurants in and around a prospective hiking location using the <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://developer.foursquare.com/places-api')}>FourSquare API</Text>. There is no commercial benefit to us, the creators; this information is provided as a free service. </Text>
 
-       <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', paddingLeft: 20}}>Weather2Wed</Text>
+       <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', paddingLeft: 20}}>Weather2Walk</Text>
 
        <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', paddingBottom: 20, paddingLeft: 20}}>November 2018</Text>
 
