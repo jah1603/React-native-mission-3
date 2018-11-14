@@ -637,7 +637,7 @@ else if (date == 23) {
       return (
 
         <ImageBackground
-                 source={require('./assets/affair-anniversary-beach.png')}
+                 source={require('./assets/gnarled_hiker.png')}
                  style={styles.backgroundStyle}
                  >
 
@@ -678,8 +678,8 @@ else if (date == 23) {
        onPressOuterCircle={(value) => console.log(`Outer: ${value}`)}
        onValueChange={val => this.setState({ dateSelected: val })}
        onSlidingComplete={val => this.getVal(val)}
-       endGradient={"#A6FFCB"}
-       startGradient={"#12D8FA"}
+       endGradient={"#00FF7F"}
+       startGradient={"#228B22"}
        showValue={'true'}
        textColor={'black'}
        textSize={20}
@@ -796,7 +796,7 @@ else if (date == 23) {
     else {
           return (
       <ImageBackground
-               source={require('./assets/affair-anniversary-beach.png')}
+               source={require('./assets/gnarled_hiker.png')}
                style={styles.backgroundStyle}
                >
 
@@ -835,8 +835,8 @@ else if (date == 23) {
             onPressOuterCircle={(value) => console.log(`Outer: ${value}`)}
             onValueChange={val => this.setState({ dateSelected: val })}
             onSlidingComplete={val => this.getVal(val)}
-            endGradient={"#A6FFCB"}
-            startGradient={"#12D8FA"}
+            endGradient={"#00FF7F"}
+            startGradient={"#228B22"}
             showValue={'true'}
             textColor={'black'}
             textSize={20}
@@ -866,7 +866,7 @@ else if (date == 23) {
       style={{borderWidth: 0, borderRadius: 10, justifyContent: 'center', alignItems: 'center'}}>
 
       <LinearGradient
-        colors={['#A6FFCB', '#12D8FA']}
+        colors={['#00FF7F', '#228B22']}
         style={{
           position: 'absolute',
           left: 0,
@@ -887,10 +887,10 @@ else if (date == 23) {
 
         <ScrollView>
 
-       <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', paddingLeft: 20, paddingRight: 20, paddingTop: 10}}>Weather2Walk was born from a vanilla Javascript project undertaken by <Text style={{fontSize: 17, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://github.com/jah1603')}>James Henderson</Text><Text style={{fontSize: 17, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://github.com/SFR1981')}>, Stephen Rooney</Text><Text style={{fontSize: 17, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://github.com/helenosheaa')}>, Helen O’Shea</Text> &<Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://github.com/DavidAPears')}> David Pears.</Text></Text>
-        <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', padding: 20}}>The project formed part of the <Text style={{fontSize: 17, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://codeclan.com')}>CodeClan</Text> Software Development course. The original web app can still be seen <Text style={{fontSize: 17, color: '#a8a8a8'}} onPress={()=>Linking.openURL('http://weather2wed.herokuapp.com')}>here</Text>. Then, James, Stephen and David holed themselves up in an Edinburgh cafe to convert that app into <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://www.reactnative.com')}>ReactNative</Text> (teaching themselves the language in the process).  Several hundred cups of coffee later, the result is this app.</Text>
+       <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', paddingLeft: 20, paddingRight: 20, paddingTop: 10}}>Weather2Walk is an app designed by <Text style={{fontSize: 17, color: '#C0C0C0'}} onPress={()=>Linking.openURL('https://github.com/jah1603')}>James Henderson</Text><Text style={{fontSize: 17, color: '#C0C0C0'}} onPress={()=>Linking.openURL('https://github.com/SFR1981')}>, Stephen Rooney</Text> &<Text style={{fontSize: 18, color: '#C0C0C0'}} onPress={()=>Linking.openURL('https://github.com/DavidAPears')}> David Pears.</Text></Text>
+        <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', padding: 20}}>James, Stephen and David can usually be found in an Edinburgh cafe typing away in <Text style={{fontSize: 18, color: '#C0C0C0'}} onPress={()=>Linking.openURL('https://www.reactnative.com')}>ReactNative</Text>. Weather2Walk is part of their 'Weather2' series (see also 'Weather2Wed' and 'Weather2Golf').</Text>
 
-       <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', paddingLeft: 20, paddingTop: 10, paddingRight: 20, paddingBottom: 10}}>Weather2Walk’s aim is to allow hikers and walking hobbyists to assess the weather for the area or range of hills they are planning to visit - at any UK location. Powered by <Text style={{fontSize: 17, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://darksky.net/')}>Dark Sky</Text>, the app returns the typical weather (based on historical averages) for any given outdoor location in Britain and Ireland, as well as an approximate prediction of the moon phase powered by <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://github.com/mourner/suncalc')}>SunCalc</Text>. The app utilises <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://www.geograph.org.uk/')}>Geograph's API</Text> which means that almost any part of Britain and Ireland can be entered as a search term (the fuzzy search can handle lakes, hills and mountains, trails and other geographical features). Weather2Walk also suggests hotels and restaurants in and around a prospective hiking location using the <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://developer.foursquare.com/places-api')}>FourSquare API</Text>. There is no commercial benefit to us, the creators; this information is provided as a free service. </Text>
+       <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', paddingLeft: 20, paddingTop: 10, paddingRight: 20, paddingBottom: 10}}>Weather2Walk’s aim is to allow hikers and walking hobbyists to assess the weather for the area or range of hills they are planning to visit - at any location in the UK or Ireland. Powered by <Text style={{fontSize: 17, color: '#C0C0C0'}} onPress={()=>Linking.openURL('https://darksky.net/')}>Dark Sky</Text>, the app returns the typical weather (based on historical averages) for any given outdoor location in Britain and Ireland, as well as an approximate prediction of the moon phase powered by <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://github.com/mourner/suncalc')}>SunCalc</Text>. The app utilises <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://www.geograph.org.uk/')}>Geograph's API</Text> which means that almost any part of Britain and Ireland can be entered as a search term (the fuzzy search can handle lakes, hills and mountains, trails and other geographical features). Weather2Walk also suggests hotels and restaurants in and around a prospective hiking location using the <Text style={{fontSize: 18, color: '#a8a8a8'}} onPress={()=>Linking.openURL('https://developer.foursquare.com/places-api')}>FourSquare API</Text>. There is no commercial benefit to us, the creators; this information is provided as a free service. </Text>
 
        <Text style={{fontSize: 17, fontWeight: 'bold', color: 'white', paddingLeft: 20}}>Weather2Walk</Text>
 
@@ -909,7 +909,7 @@ else if (date == 23) {
                 >
 
                 <LinearGradient
-                  colors={['#A6FFCB', '#12D8FA']}
+                  colors={['#00FF7F', '#228B22']}
                   style={{
                     position: 'absolute',
                     left: 0,
