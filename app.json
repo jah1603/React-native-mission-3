@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Weather2Wed",
-    "description": "Wedding day weather guide, for the UK and Ireland",
-    "slug": "weather2app",
+    "name": "Weather2Walk",
+    "description": "Hiking weather guide for the UK and Ireland",
+    "slug": "weather2walk",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": ["ios", "android"],
@@ -25,7 +25,7 @@
       "supportsTablet": true
     },
     "android": {
-     "package": "com.weather2.weather2wed"
+     "package": "com.weather2.weather2walk"
    }
   }
 }
