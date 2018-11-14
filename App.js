@@ -882,7 +882,7 @@ else if (date == 23) {
       </TouchableOpacity>
 
       <View style={{alignItems: "center"}}>
-       <Image source={require('./assets/w2walk.gif')} style={{height: 100, width: 100}}/>
+       <Image source={require('./assets/w2walkNEW.gif')} style={{height: 100, width: 220}}/>
        </View>
 
         <ScrollView>
