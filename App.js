@@ -424,7 +424,7 @@ else if (date == 23) {
       console.log("Error fetching coordinates data.");
       Alert.alert(
  'Could not find weather for your location',
- "Try to be more specific e.g. type 'Bath Somerset' rather than 'Bath' or 'Bangor Wales' instead of 'Bangor'."
+ "Try to be more specific e.g. type the name of a waterfall or geographical landmark in the area you're visiting."
 )
   self.setState({
     loadingInProcess: false
@@ -870,7 +870,7 @@ else if (date == 23) {
       style={{borderWidth: 0, borderRadius: 10, justifyContent: 'center', alignItems: 'center'}}>
 
       <LinearGradient
-        colors={['#00FF7F', '#228B22']}
+        colors={['#228B22', '#00FF7F']}
         style={{
           position: 'absolute',
           left: 0,
@@ -913,7 +913,7 @@ else if (date == 23) {
                 >
 
                 <LinearGradient
-                  colors={['#00FF7F', '#228B22']}
+                  colors={['#228B22', '#00FF7F']}
                   style={{
                     position: 'absolute',
                     left: 0,
