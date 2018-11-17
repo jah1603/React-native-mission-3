@@ -59,3 +59,7 @@ npm i react-native-circle-slider
 brew cask install android-platform-tools
 
 adb logcat | grep ReactNativeJS
+
+<b>For publication to store:</b>
+
+expo build:android
