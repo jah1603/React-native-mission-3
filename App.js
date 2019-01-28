@@ -24,6 +24,7 @@ import {
   UIActivityIndicator,
   WaveIndicator
 } from 'react-native-indicators';
+console.disableYellowBox = true
 
 global.self = global;
 
